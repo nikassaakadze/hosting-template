@@ -1,0 +1,83 @@
+.hosting-features{
+  .hosting-features-inner{
+    margin: 30px auto;
+		padding-bottom: 30px;
+		border: 1px solid $flag_background;
+		background: $light-bg-color;
+		border-radius: 10px;
+    .hosting-features-cards{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 1rem;
+      .hosting-features-card{
+        background: $secondary-bg-card-smooth;
+        padding: 20px;
+        border-radius: 20px;
+        .features-card-icon{
+          width: fit-content;
+          padding: 10px 20px;
+          border-radius: 20px;
+          i{
+            color: $text-heading-color;
+            font-size: 50px;
+          }
+        }
+        .features-card-headlin{
+          color: $text-dark-color;
+          font-size: 20px;
+          letter-spacing: 1px;
+          font-weight: lighter;
+          margin: 19px 0 14px 0;
+        }
+        .features-card-title{
+          font-size: 14px;
+          line-height: 1.5;
+          color: $text-lowContrast;
+        }
+      }
+    }
+  }
+}
+
+.questions-wrapper{
+  .questions-inner{
+    margin: 30px auto;
+		padding-bottom: 30px;
+		border: 1px solid $flag_background;
+		background: $light-bg-color;
+		border-radius: 10px;
+    .questions-acordions{
+      display: grid;
+      grid-template-columns: 48% 48%;
+      gap: 2rem;
+      .question-item{
+        .question-item-content{
+          display: none;
+          padding: 20px 0;
+          border-radius:20px;
+          p{
+            line-height: 2;
+            color: $text-heading-color;
+            background-color: $flag_background;
+            padding: 15px;
+          }
+        }
+        .question-item-headline{
+          cursor: pointer;
+          padding: 20px 0;
+          border-bottom: 1px solid $flag_background;
+          color: $text-lowContrast;
+          h4{
+            font-weight: lighter;
+            position: relative;
+            top: 6px;
+          }
+          i{
+            font-size: 25px;
+            color: $text-heading-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@media screen and (max-width: 900px) {
+  .form-alone-widget{
+    grid-template-columns: auto !important;
+  }
+  .main-wrapper-banner-inner{
+    max-width: 550px;
+		grid-template-columns: auto !important;
+    height: auto !important;
+  }
+  .hosting-features-cards{
+    grid-template-columns: auto !important;
+  }
+  .questions-acordions{
+    grid-template-columns: auto !important;
+    gap: 0 !important;
+  }
+  .footer-block-middle{
+    grid-template-columns: auto !important;
+  }
+  .footer-block-listsRow{
+    gap: 2rem !important;
+    justify-self: normal !important;
+  }
+  .footer-block-top{
+    grid-template-columns: auto !important;
+  }
+  .footer-block-emailConfirm{
+    justify-self: normal !important;
+    padding-top: 10px;
+  }
+  .domain-features-cards{
+    gap: 0 !important;
+  }
+  .form-alone-widget{
+    grid-template-columns: auto !important;
+  }
+  .section-heading{
+    h1{
+      font-size: 4vw;
+    }
+  }
+}
+@media screen and (max-width: 340px) {
+  .hosting-plan-cards{
+    grid-template-columns: auto !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-block-listsRow{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important ;
+    gap: 2rem !important;
+  }
+  .websites-list .list-ofWebsites{
+    grid-template-columns: auto !important;
+    gap: 1rem;
+    .website-info-card{
+      // height: 200px;
+    }
+  }
+  .hsg-mail{
+    display: none;
+  }
+  .top-bar_content_widget-link{
+    font-size: 2.5vw !important;
+  }
+}
+.responsive-navigation{
+  position: absolute;
+  top: 70px;
+  background: $flag_background;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  ul{
+    flex-direction: column;
+    gap: 0 !important;
+    li{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+      width: 100%;
+      height: auto !important;
+      text-align: center;
+      a{
+        padding: 20px 0;
+        width: 100%;
+      }
+    }
+  }
+  .main-navigation-trial-widget{
+    width: 200px;
+    margin: 20px auto;
+  }
+}
+// .burger-hide{
+//   display: none;
+// }
+.responsive-nav-burger{
+  i{
+    color: #000;
+    font-size: 50px;
+  }
+}

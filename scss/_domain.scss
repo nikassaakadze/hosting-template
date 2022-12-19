@@ -1,0 +1,107 @@
+.domain-search-wrapper{
+  .domain-search-inner{
+    margin: 30px auto;
+		padding-bottom: 30px;
+		border: 1px solid $flag_background;
+		background: white;
+		border-radius: 10px;
+    .domain-search-form{
+      // max-width: 1000px;
+      margin: auto;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 25px;
+      .domain-search-input{
+        height: 50px;
+        flex: 1;
+        padding: 0 20px;
+        border-right: none;
+        border: 1px solid $text-heading-color;
+        border-radius: 25px 0 0 25px;
+      }
+      .domain-search-submit{
+        height: 52px;
+        width: 150px;
+        border-left: none;
+        border: 1px solid $text-heading-color;
+        background: $text-heading-color;
+        color: $light-text-color;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 25px !important;
+        border-bottom-right-radius: 25px !important;
+        border-bottom-left-radius: 0px !important;
+
+      }
+    }
+    .domain-cards{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      .m-p-domain-card{
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 15px;
+        .m-p-domain-card-hln{
+          width: fit-content;
+          margin: 20px auto;
+          img{
+            height: 70px;
+          }
+        }
+        h1{
+          margin: 20px 0;
+          max-width: 600px;
+          text-align: center;
+          line-height: 3.4rem;
+          color: $text-dark-color
+        }
+        .rg-domain-btn{
+          width: 150px;
+          height: 40px;
+          background: $flag_background;
+          color: $text-heading-color;
+          border-radius: 30px;
+          margin: 30px auto;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+.domain-features{
+  .domain-features-inner{
+    margin: 30px auto;
+		padding-bottom: 30px;
+		border: 1px solid $flag_background;
+		background: white;
+		border-radius: 10px;
+    .domain-features-cards{
+      display: grid;
+      gap: 1.3rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      .domain-feature-card{
+        padding: 15px;
+        margin-top: 20px;
+        background: $flag_background;
+        border-radius: 10px;
+        h4{
+          color: $text-heading-color;
+          font-size: 18px;
+          i{
+            margin-right: 10px;
+          }
+        }
+        p{
+          margin-top: 10px;
+          line-height: 1.5;
+          color: rgb(81, 93, 110);
+          font-size: 13px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
